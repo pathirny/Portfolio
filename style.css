@@ -53,3 +53,26 @@ body {
   background-color: white;
   color: var(--dark-colour);
 }
+
+.main {
+  position: relative;
+  top: 200px;
+  left: 100px;
+  border: 1px solid var(--neon-green);
+  width: 80vw;
+  height: 17vw;
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+}
+.main img {
+  width: 15vw;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid var(--neon-green);
+}
+.main p {
+  padding: 10px;
+}
