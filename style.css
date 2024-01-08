@@ -62,6 +62,7 @@ header {
   border-radius: 0 0 50px 50px;
   background-color: white;
   color: var(--dark-colour);
+  scale: 1.5;
 }
 
 .main {
@@ -140,4 +141,16 @@ figure {
 }
 .random {
   height: 80vh;
+}
+
+#contactMe {
+  width: auto;
+  border-radius: 25px;
+  margin-top: 5rem;
+  height: 50vh;
+  border: 1px solid #3ecf8e;
+  color: white;
+}
+#contactMe h2 {
+  text-align: center;
 }
