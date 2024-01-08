@@ -63,7 +63,7 @@ body {
   width: 85vw;
   height: auto;
 }
-.main img {
+#aboutMe img {
   width: 15vw;
   height: auto;
   border-radius: 50%;
@@ -116,4 +116,9 @@ figure {
   width: 55vw;
   height: 20vh;
   padding-left: 1rem;
+}
+
+.harvesthub {
+  height: 50vh;
+  border-radius: 20px;
 }
