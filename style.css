@@ -11,6 +11,7 @@ html {
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -73,7 +74,7 @@ body {
 }
 #aboutMe {
   border: 1px solid var(--neon-green);
-  width: 80vw;
+  width: auto;
   height: 17vw;
   display: flex;
   padding: 10px;
@@ -83,7 +84,7 @@ body {
 }
 
 #projects {
-  width: 80vw;
+  width: auto;
   border: 1px solid var(--neon-green);
   border-radius: 25px;
   margin-top: 10vh;
