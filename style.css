@@ -21,13 +21,12 @@ body {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100vw;
+  height: 200%;
   background-color: var(--dark-colour);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
-  overflow: hidden;
 }
 .navbar {
   width: 100vw;
@@ -60,6 +59,8 @@ body {
   position: relative;
   top: 200px;
   left: 100px;
+  width: 85vw;
+  height: auto;
 }
 .main img {
   width: 15vw;
@@ -83,8 +84,35 @@ body {
 
 #projects {
   width: 80vw;
-  height: 30vw;
   border: 1px solid var(--neon-green);
   border-radius: 25px;
   margin-top: 10vh;
+  color: white;
+}
+
+#projects h2 {
+  text-align: center;
+}
+figcaption {
+  position: relative;
+  top: -100px;
+  left: 115px;
+  font-size: 20px;
+}
+figure {
+  display: flex;
+  width: 75vw;
+  align-items: center;
+  border: #3ecf8e solid 1px;
+  border-radius: 25px;
+  padding: 0.7rem;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 55vw;
+  height: 20vh;
+  padding-left: 1rem;
 }
