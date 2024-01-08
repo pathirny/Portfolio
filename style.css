@@ -147,10 +147,45 @@ figure {
   width: auto;
   border-radius: 25px;
   margin-top: 5rem;
-  height: 50vh;
+  height: 60vh;
   border: 1px solid #3ecf8e;
   color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-#contactMe h2 {
+
+form {
+  border: 1px solid #3ecf8e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+input,
+textarea {
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
+}
+textarea {
+  height: 15vh;
+}
+label {
   text-align: center;
+  padding: 1.5rem;
+}
+button {
+  margin-bottom: 1rem;
+  transition: 1s;
+  background-color: #3ecf8e;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 25px;
+  color: white;
+}
+button:hover {
+  scale: 1.2;
+  cursor: pointer;
 }
