@@ -42,3 +42,28 @@ new Typewriter("#words", {
 });
 
 // create tech stack
+const techStack = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Typescript",
+  "HTML",
+  "CSS",
+  "PostgreSQL",
+  "Express",
+  "Jest",
+  "Vitest",
+  "Playwright",
+];
+
+// function append() {
+//   const page = document.getElementById("append");
+
+//   techStack.map((tech) => {
+//     const h1Element = document.createElement("h1");
+//     h1Element.textContent = tech;
+//     page.appendChild(h1Element);
+//   });
+// }
+// append();
