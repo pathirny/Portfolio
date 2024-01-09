@@ -40,3 +40,5 @@ new Typewriter("#words", {
   autoStart: true,
   loop: true,
 });
+
+// create tech stack
