@@ -139,6 +139,11 @@ figure {
 .mobile {
   height: 50vh;
   border-radius: 20px;
+  scale: 0.8;
+  transition: 0.7s;
+}
+.mobile:hover {
+  scale: 1;
 }
 .landingPage {
   height: 75vh;
@@ -167,11 +172,8 @@ figure {
   margin-bottom: 2rem;
   border-radius: 25px;
   background-color: var(--neon-green);
-  transition: 0.7s;
 }
-.techStack:hover {
-  scale: 1.1;
-}
+
 .techStack img {
   border-radius: 25px;
 }
@@ -220,4 +222,14 @@ button {
 button:hover {
   scale: 1.2;
   cursor: pointer;
+}
+.fa-github {
+  width: 2rem;
+  height: 2rem;
+  transition: 0.7s;
+  margin-left: 1rem;
+  text-align: center;
+}
+.fa-github:hover {
+  scale: 1.6;
 }
