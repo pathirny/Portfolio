@@ -1,3 +1,4 @@
+import Typewriter from "typewriter-effect/dist/core";
 var form = document.getElementById("form");
 
 // Handle submit function handles the form submission
@@ -34,10 +35,8 @@ async function handleSubmit(event) {
 form.addEventListener("submit", handleSubmit);
 
 // typewriter effect
-
-const typewriter = new Typewriter("#typewriter", {
-  strings: ["Hello", "World"],
+new Typewriter("#words", {
+  strings: ["Full Stack Developer", "Problem Solver"],
   autoStart: true,
+  loop: true,
 });
-
-console.log(typewriter);
