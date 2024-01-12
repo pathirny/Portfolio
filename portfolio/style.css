@@ -151,6 +151,7 @@ figure {
   border: 1px solid var(--neon-green);
   border-radius: 25px;
   display: flex;
+  margin-top: -5rem;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
