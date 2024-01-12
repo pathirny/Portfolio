@@ -182,7 +182,7 @@ figure {
 #contactMe {
   border-radius: 25px;
   margin-top: 5rem;
-  height: 60vh;
+  min-height: 60vh;
   border: 1px solid #3ecf8e;
   color: white;
   display: flex;
