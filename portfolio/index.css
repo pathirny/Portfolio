@@ -195,7 +195,7 @@ form {
 input,
 textarea {
   width: 90%;
-  height: 90%;
+  height: 5vh;
   border-radius: 8px;
 }
 textarea {
@@ -217,6 +217,7 @@ button {
 button:hover {
   scale: 1.2;
   cursor: pointer;
+  font-size: 1rem;
 }
 .fa-github {
   width: 2rem;
