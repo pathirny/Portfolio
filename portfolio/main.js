@@ -59,30 +59,30 @@ new Typewriter("#words", {
 
 // get the image from the dom
 
-const techStack = {
-  javascript: {
-    name: "JavaScript",
-    image: "./images/javascript.png",
-  },
-  react: {
-    name: "React",
-    image: "./images/react.png",
-  },
-};
-console.log(techStack);
+// const techStack = {
+//   javascript: {
+//     name: "JavaScript",
+//     image: "./images/javascript.png",
+//   },
+//   react: {
+//     name: "React",
+//     image: "./images/react.png",
+//   },
+// };
+// console.log(techStack);
 
-function append() {
-  const techContainer = document.getElementById("techContainer");
-  const techArray = Object.values(techStack);
-  techArray.map((tech) => {
-    const techImg = document.createElement("img");
-    techImg.src = tech.image;
-    console.log(tech);
-    techContainer.appendChild(techImg);
-  });
-}
+// function append() {
+//   const techContainer = document.getElementById("techContainer");
+//   const techArray = Object.values(techStack);
+//   techArray.map((tech) => {
+//     const techImg = document.createElement("img");
+//     techImg.src = tech.image;
+//     console.log(tech);
+//     techContainer.appendChild(techImg);
+//   });
+// }
 
-append();
+// append();
 
 // function append() {
 //   const page = document.getElementById("append");
