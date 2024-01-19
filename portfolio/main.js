@@ -67,4 +67,3 @@ const techStack = [
 //   });
 // }
 // append();
-
