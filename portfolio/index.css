@@ -30,6 +30,7 @@ body {
   z-index: 0;
   border-bottom: 1px solid #3ecf8e;
 }
+
 header {
   width: 100vw;
   display: flex;
