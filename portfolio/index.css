@@ -19,10 +19,11 @@ body {
   background-color: #1c1c1c;
 }
 
-#particles-container {
+#particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  border-bottom: 1px solid #3ecf8e;
 }
 
 header {
