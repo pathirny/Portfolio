@@ -179,7 +179,7 @@ figure {
 
 #contactMe {
   border-radius: 25px;
-  margin-top: 1rem;
+  margin-top: 5vh;
   border: 1px solid var(--neon-green);
   color: white;
   display: flex;
