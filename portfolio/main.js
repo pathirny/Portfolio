@@ -42,20 +42,47 @@ new Typewriter("#words", {
 });
 
 // create tech stack
-const techStack = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Typescript",
-  "HTML",
-  "CSS",
-  "PostgreSQL",
-  "Express",
-  "Jest",
-  "Vitest",
-  "Playwright",
-];
+// const techStack = [
+//   "JavaScript",
+//   "React",
+//   "Next.js",
+//   "Node.js",
+//   "Typescript",
+//   "HTML",
+//   "CSS",
+//   "PostgreSQL",
+//   "Express",
+//   "Jest",
+//   "Vitest",
+//   "Playwright",
+// ];
+
+// get the image from the dom
+
+const techStack = {
+  javascript: {
+    name: "JavaScript",
+    image: "./images/javascript.png",
+  },
+  react: {
+    name: "React",
+    image: "./images/react.png",
+  },
+};
+console.log(techStack);
+
+function append() {
+  const techContainer = document.getElementById("techContainer");
+  const techArray = Object.values(techStack);
+  techArray.map((tech) => {
+    const techImg = document.createElement("img");
+    techImg.src = tech.image;
+    console.log(tech);
+    techContainer.appendChild(techImg);
+  });
+}
+
+append();
 
 // function append() {
 //   const page = document.getElementById("append");
