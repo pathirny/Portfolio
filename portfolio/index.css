@@ -219,6 +219,14 @@ label {
   text-align: center;
   padding: 1.5rem;
 }
+aside button {
+  width: 10rem;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
 button {
   margin-bottom: 1rem;
   transition: 1s;
