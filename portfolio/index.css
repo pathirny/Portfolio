@@ -132,7 +132,13 @@ figure {
 .projectInfo p {
   padding: 0;
 }
-
+.individualProject {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 2rem;
+}
 .mobile {
   height: 50dvh;
   border-radius: 20px;
