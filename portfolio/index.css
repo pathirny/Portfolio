@@ -2,6 +2,10 @@
   --dark-colour: #1c1c1c;
   --neon-green: #3ecf8e;
 }
+* {
+  box-sizing: border-box;
+}
+
 /* * {
   border: 1px solid red;
 } */
@@ -137,7 +141,6 @@ figure {
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-left: 2rem;
 }
 .mobile {
   height: 50dvh;
@@ -266,7 +269,9 @@ button {
     scale: 1;
   }
 }
-
+.individualProject:not(:last-child) {
+  border-bottom: 1px solid var(--neon-green);
+}
 /* Media queries */
 
 @media only screen and (max-width: 430px) {
@@ -300,5 +305,13 @@ button {
   }
   #techStack {
     min-width: 90vw;
+  }
+
+  .individualProject {
+    margin-left: 0rem;
+  }
+
+  .projectInfo {
+    width: auto;
   }
 }
