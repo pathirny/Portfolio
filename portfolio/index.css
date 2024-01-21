@@ -283,4 +283,7 @@ button:hover {
   .aboutMe p {
     font-size: 1rem;
   }
+  #techStack {
+    min-width: 90vw;
+  }
 }
