@@ -20,12 +20,12 @@ body {
 }
 .words {
   position: absolute;
-  margin-top: 12vh;
+  margin-top: 12dvh;
 }
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   border-bottom: 1px solid #3ecf8e;
 }
 figure p {
@@ -33,13 +33,13 @@ figure p {
   font-size: 1.2rem;
 }
 header {
-  width: 100vw;
+  width: 100dvw;
   display: flex;
   justify-content: center;
 }
 .navbar {
   top: 0;
-  width: 95vw;
+  width: 95dvw;
   background-color: var(--neon-green);
   height: 30px;
   position: absolute;
@@ -51,7 +51,7 @@ header {
 
 .navbar a {
   color: white;
-  width: 8vw;
+  width: 8dvw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,14 +70,14 @@ header {
   position: relative;
   top: 200px;
   left: 100px;
-  width: 85vw;
+  width: 85dvw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 410vh;
+  min-height: 410dvh;
 }
 #aboutMe img {
-  width: 15vw;
+  width: 15dvw;
   height: auto;
   border-radius: 50%;
   border: 1px solid var(--neon-green);
@@ -102,7 +102,7 @@ header {
   width: auto;
   border: 1px solid var(--neon-green);
   border-radius: 25px;
-  margin-top: 10vh;
+  margin-top: 10dvh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -120,7 +120,7 @@ figcaption {
 }
 figure {
   display: flex;
-  width: 75vw;
+  width: 75dvw;
   align-items: center;
   border: #3ecf8e solid 1px;
   border-radius: 25px;
@@ -131,8 +131,8 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 55vw;
-  min-height: 20vh;
+  width: 55dvw;
+  min-height: 20dvh;
   padding-left: 1rem;
 }
 .projectInfo p {
@@ -140,7 +140,7 @@ figure {
 }
 
 .mobile {
-  height: 50vh;
+  height: 50dvh;
   border-radius: 20px;
   scale: 0.8;
   transition: 0.7s;
@@ -149,8 +149,8 @@ figure {
   scale: 1;
 }
 .landingPage {
-  height: 75vh;
-  margin-bottom: 17vh;
+  height: 75dvh;
+  margin-bottom: 17dvh;
   border-radius: 25px;
   display: flex;
   margin-top: -5rem;
@@ -173,7 +173,7 @@ figure {
   width: 51%;
   margin-bottom: 2rem;
   border-radius: 25px;
-  margin-top: 45vh;
+  margin-top: 45dvh;
   background-color: var(--neon-green);
 }
 
@@ -188,13 +188,13 @@ figure {
 
 #contactMe {
   border-radius: 25px;
-  margin-top: 5vh;
+  margin-top: 5dvh;
   border: 1px solid var(--neon-green);
   color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 80.5vw;
+  width: 80.5dvw;
 }
 
 form {
@@ -204,16 +204,16 @@ form {
   align-items: center;
   border-radius: 25px;
   justify-content: space-evenly;
-  margin-bottom: 5vh;
+  margin-bottom: 5dvh;
 }
 input,
 textarea {
   width: 90%;
-  height: 5vh;
+  height: 5dvh;
   border-radius: 8px;
 }
 textarea {
-  height: 15vh;
+  height: 15dvh;
 }
 label {
   text-align: center;
@@ -254,18 +254,30 @@ button:hover {
 
 /* Media queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 430px) {
   .navbar a {
     font-size: 0.7rem;
   }
+  .navbar {
+    width: 80vw;
+    align-self: center;
+  }
   .main {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    left: 0;
+    overflow-x: hidden;
     top: 5rem;
   }
+  .words {
+    top: -50px;
+  }
   .aboutMe {
-    width: 80vw;
+    width: 90vw;
+  }
+  .aboutMe p {
+    font-size: 1rem;
   }
 }
