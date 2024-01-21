@@ -59,12 +59,6 @@ header {
   text-decoration: none;
   transition: 1s;
 }
-.navbar a:hover {
-  border-radius: 0 0 50px 50px;
-  background-color: white;
-  color: var(--dark-colour);
-  scale: 1.5;
-}
 
 .main {
   position: relative;
@@ -145,9 +139,7 @@ figure {
   scale: 0.8;
   transition: 0.7s;
 }
-.mobile:hover {
-  scale: 1;
-}
+
 .landingPage {
   height: 75dvh;
   margin-bottom: 17dvh;
@@ -236,11 +228,7 @@ button {
   border-radius: 25px;
   color: white;
 }
-button:hover {
-  scale: 1.2;
-  cursor: pointer;
-  font-size: 1rem;
-}
+
 .fa-github {
   width: 2rem;
   height: 2rem;
@@ -248,8 +236,29 @@ button:hover {
   margin-left: 1rem;
   text-align: center;
 }
-.fa-github:hover {
-  scale: 1.6;
+
+/* hover elements */
+
+@media only screen and (min-width: 900px) {
+  .navbar a:hover {
+    border-radius: 0 0 50px 50px;
+    background-color: white;
+    color: var(--dark-colour);
+    scale: 1.5;
+  }
+
+  .fa-github:hover {
+    scale: 1.6;
+  }
+
+  button:hover {
+    scale: 1.2;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .mobile:hover {
+    scale: 1;
+  }
 }
 
 /* Media queries */
