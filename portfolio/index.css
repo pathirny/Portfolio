@@ -275,11 +275,17 @@ button {
 /* Media queries */
 
 @media only screen and (max-width: 430px) {
+  header {
+    position: fixed;
+    top: -1px;
+    z-index: 2;
+    width: 100dvw;
+  }
   .navbar a {
     font-size: 0.7rem;
   }
   .navbar {
-    width: 80vw;
+    width: 100dvw;
     align-self: center;
   }
   .main {
