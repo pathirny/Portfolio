@@ -272,7 +272,10 @@ button:hover {
     top: 5rem;
   }
   .words {
-    top: -50px;
+    top: -35px;
+  }
+  .headshot {
+    display: none;
   }
   .aboutMe {
     width: 90vw;
