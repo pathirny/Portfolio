@@ -24,7 +24,7 @@ body {
 }
 .words {
   position: absolute;
-  margin-top: 12vh;
+  margin-top: 14vh;
 }
 #particles-js {
   position: absolute;
@@ -302,10 +302,13 @@ header {
     top: -35px;
   }
   .headshot {
-    display: none;
+    min-width: 50vw;
+    margin-top: 10vw;
   }
   .aboutMe {
     width: 90vw;
+    display: flex;
+    flex-direction: column;
   }
   .aboutMe p {
     font-size: 1rem;
