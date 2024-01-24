@@ -1,6 +1,8 @@
 import Typewriter from "typewriter-effect/dist/core";
 var form = document.getElementById("form");
-
+const emailSent = document.getElementById("emailSent");
+const submit = document.getElementById("my-form-button");
+console.log(emailSent);
 // Handle submit function handles the form submission
 async function handleSubmit(event) {
   event.preventDefault();
@@ -32,8 +34,19 @@ async function handleSubmit(event) {
       status.innerHTML = "Oops! There was a problem submitting your form";
     });
 }
+
 form.addEventListener("submit", handleSubmit);
 
+// button slide
+
+function slideIn() {
+  emailSent.style.bottom = "20px";
+  setTimeout(() => {
+    emailSent.style.bottom = "-150px";
+  }, 4000);
+}
+
+submit.addEventListener("click", slideIn);
 // typewriter effect
 new Typewriter("#words", {
   strings: ["Full Stack Developer", "Problem Solver"],
