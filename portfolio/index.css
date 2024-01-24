@@ -321,4 +321,7 @@ header {
   .projectInfo {
     width: auto;
   }
+  #contactMe {
+    width: 100vw;
+  }
 }
