@@ -49,7 +49,12 @@ function slideIn() {
 submit.addEventListener("click", slideIn);
 // typewriter effect
 new Typewriter("#words", {
-  strings: ["Full Stack Developer", "Problem Solver"],
+  strings: [
+    "Full Stack Developer",
+    "Problem Solver",
+    "Logical Thinker",
+    "Tech Enthusiast",
+  ],
   autoStart: true,
   loop: true,
 });
